@@ -4,22 +4,16 @@ import portfolioMain from '../Assets/portfolioMain.jpeg';
 
 function Home() {
   return (
-    <div className="flex flex-col items-center text-center mt-20 z-50 lg:flex-row lg:items-center lg:justify-center lg:text-left lg:mt-32 lg:space-x-10">
-      <div className="lg:w-1/2">
-        <p className="text-2xl font-medium text-blue-500 py-5">Grüezi, mein Name ist</p>
-        <p className="text-5xl text-slate-900 font-bold">Jan Frey</p>
+    <div  className="flex flex-col items-center text-center mt-20 z-50 lg:flex-row lg:ml-64 lg:items-start lg:text-left lg:mt-32 lg:space-x-10 " >
+     
+      <div id="home" className="lg:w-1/2 lg:pr-10 lg:ml-20 lg:items lg:my-36">
+        <p className="text-2xl font-medium text-blue-800 ">Grüezi, mein Name ist</p>
+        <p className="text-4xl lg:text-6xl text-slate-900 font-bold">Jan Alexander Frey</p>
+        <p className="text-2xl font-light">Schnell im Sport und im Programmieren</p>
       </div>
 
-      
-      <div className="lg:w-2/2 ">
-        <img src={portfolioMain} alt="Me" className="rounded-lg w-80 my-5 lg:w-full lg:max-w-md lg:my-0"/>
-      </div>
-
-      <div className="lg:w-1/2 lg:text-left">
-        <p className="text-xl font-light">Schnell im Sport und im Programmieren</p>
-        <p className="lg:w-1/3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt vero est voluptates nostrum possimus culpa molestiae, rem, velit porro delectus iure quibusdam accusantium eius nemo et sit illum quod.
-        </p>
+      <div className="lg:w-1/2 lg:flex lg:justify-start">
+        <img src={portfolioMain} alt="Me" className="rounded-lg w-80 mt-5 lg:w-96 lg:max-w-md lg:my-0 lg:mr-20"/>
       </div>
     </div>
   );
