@@ -39,12 +39,12 @@ In diesem Projekt überarbeite ich meine bereits vorhandene Portfolio Webseite
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  | 30.08 | Jan | Implementierung von Media Queries für eine responsive Gestaltung | 90 min |
 | 2.A  | 06.09 | Jan | Entwicklung einer dynamischen Navbar, die sich je nach Gerätegrösse ändert | 270 min |
-| 2.B  | 13.09 | Jan | Optimierung der Navbar für mobile Geräte | 90 min |
+| 2.B  | 13.09 | Jan | Optimierung der Navbar für mobile Geräte | 180 min |
 | 3.A  | 14.10 | Jan | Design und Implementierung einer Begrüssungsanimation beim Laden der Webseite | 180 min |
-| 3.B  | 14.10 | Jan | Einbindung von weiteren Micro-Animationen für Buttons und Links | 90 min |
+| 3.B  | 14.10 | Jan | Einbindung von weiteren Micro-Animationen für Buttons und Links | 180 min |
 | 3.C  | 25.10 | Jan | Testen und Feintuning der Animationen  | 90 min |
 
-Total: 7 Arbeitspakete
+Total: 22 AP
 
 
 ## 3 Entscheiden
@@ -57,9 +57,9 @@ Ich habe mich Entschieden alles geplante umzusetzten.
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |   30.08    |Jan           | 90 min              |             100 min      |
 | 2.A  |   06.09    |   Jan        |    270 min          |    300 min            |
-|2.B|13.10|Jan|90 min|90 min|
+|2.B|13.10|Jan|180 min|180 min|
 |3.A|14.10|Jan|180 min|200 min|
-|3.B|14.10|Jan|90 min|100 min|
+|3.B|14.10|Jan|180 min|180 min|
 |3.C|25.10|Jan|90 min| 100 min|
 
 ## 5 Kontrollieren
