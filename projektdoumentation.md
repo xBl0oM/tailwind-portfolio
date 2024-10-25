@@ -37,12 +37,12 @@ In diesem Projekt überarbeite ich meine bereits vorhandene Portfolio Webseite
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.B  | 02.09.2024 | Jan | Implementierung von Media Queries für eine responsive Gestaltung | 45 min |
-| 2.A  | 03.09.2024 | Jan | Entwicklung einer dynamischen Navbar, die sich je nach Gerätegrösse ändert | 45 min |
-| 2.B  | 04.09.2024 | Jan | Optimierung der Navbar für mobile Geräte | 45 min |
-| 3.A  | 05.09.2024 | Jan | Design und Implementierung einer Begrüssungsanimation beim Laden der Webseite | 45 min |
-| 3.B  | 06.09.2024 | Jan | Einbindung von weiteren Micro-Animationen für Buttons und Links | 45 min |
-| 3.C  | 07.09.2024 | Jan | Testen und Feintuning der Animationen  | 45 min |
+| 1.A  | 30.08 | Jan | Implementierung von Media Queries für eine responsive Gestaltung | 90 min |
+| 2.A  | 06.09 | Jan | Entwicklung einer dynamischen Navbar, die sich je nach Gerätegrösse ändert | 270 min |
+| 2.B  | 13.09 | Jan | Optimierung der Navbar für mobile Geräte | 90 min |
+| 3.A  | 14.10 | Jan | Design und Implementierung einer Begrüssungsanimation beim Laden der Webseite | 180 min |
+| 3.B  | 14.10 | Jan | Einbindung von weiteren Micro-Animationen für Buttons und Links | 90 min |
+| 3.C  | 25.10 | Jan | Testen und Feintuning der Animationen  | 90 min |
 
 Total: 7 Arbeitspakete
 
@@ -55,10 +55,12 @@ Ich habe mich Entschieden alles geplante umzusetzten.
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 1.A  |   30.08    |Jan           | 90 min              |             100 min      |
+| 2.A  |   06.09    |   Jan        |    270 min          |    300 min            |
+|2.B|13.10|Jan|90 min|90 min|
+|3.A|14.10|Jan|180 min|200 min|
+|3.B|14.10|Jan|90 min|100 min|
+|3.C|25.10|Jan|90 min| 100 min|
 
 ## 5 Kontrollieren
 
@@ -66,20 +68,19 @@ Ich habe mich Entschieden alles geplante umzusetzten.
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |    25.10   |   Funktioniert       |     Jan   |
+| 2.1  |  25.10     |      Funktioniert    |   jan     |
+| 3.1  |  25.10     |       Funktioniert   |   Jan     |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+
 
 ### 5.2 Exploratives Testen
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
+| I    |      Webseite ist geöffnet        |   User endet die Displaygrösse      |   Webseite passt sich an die Displaygrösse an                |   Webseite passt sich an die Displaygrösse an                   |
+| II  |         Webseite ist auf dem Handy geöffnet     |      User öffnet die Navbar   |          Navbar ist Horizontal         |       Navbar ist Horizontal               |
+| III  |      Webseite wird geöffnet        |     -    |           Animationen werden abgespielt        |                 Animationen werden abgespielt     |
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
-## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
