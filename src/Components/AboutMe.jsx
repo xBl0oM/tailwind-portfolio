@@ -3,9 +3,9 @@ import "../index.css";
 
 function AboutMe() {
   return (
-    <div className="flex flex-col items-center text-center mt-20 z-50 lg:flex-row lg:ml-64 lg:items-start lg:text-left lg:mt-32 lg:space-x-10 bg-gray-dark">
-      <div id="aboutMe" className="mx-10 text-gray-light">
-        <p className="text-4xl mt-5">Wer ist Jan Frey?</p>
+    <div id="überMich" className="flex flex-col items-center text-center mt-20 z-50 lg:flex-col lg:ml-64 lg:items-center lg:text-left lg:mt-60 lg:space-x-10 bg-fixed lg:bg-parallax bg-parallax-2 bg-cover">
+      <div className="mx-10 my-10 bg-gray-600 bg-opacity-80 rounded-lg shadow-lg text-gray-light p-5 hover:shadow-xl hover:bg-gray-700 hover:bg-opacity-90 duration-500 hover:scale-105">
+        <p className="text-4xl">Wer ist Jan Frey?</p>
         <table className="w-full mt-5 text-xl">
           <tbody>
             <tr className="border-b border-gray-300">
@@ -14,7 +14,7 @@ function AboutMe() {
             </tr>
             <tr className="border-b border-gray-300">
               <td className="py-2 font-semibold">Vorname:</td>
-              <td className="py-2">Jan</td>
+              <td className="py-2">Jan Alexander</td>
             </tr>
             <tr className="border-b border-gray-300">
               <td className="py-2 font-semibold">Alter:</td>
@@ -38,7 +38,7 @@ function AboutMe() {
             </tr>
             <tr className="border-b border-gray-300">
               <td className="py-2 font-semibold">Telefon:</td>
-              <td className="py-2">0764145103</td>
+              <td className="py-2">076 414 51 03</td>
             </tr>
           </tbody>
         </table>
